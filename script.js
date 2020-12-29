@@ -36,9 +36,10 @@ window.addEventListener("load", () => {
           temperatureSection.addEventListener("click", () => {
             if (temperatureSpan.textContent === "°C") {
               temperatureSpan.textContent = "°F";
-              temperatureDegree.textContent = fahrenheit;
+              temperatureDegree.textContent = Math.floor(fahrenheit);
             } else {
               temperatureSpan.textContent = "°C";
+              temperatureDegree.textContent = temp;
             }
           });
         });
