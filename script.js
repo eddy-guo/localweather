@@ -28,11 +28,15 @@ window.addEventListener("load", () => {
           temperatureDegree.textContent = temp;
           temperatureDescription.textContent = description;
           locationTimezone.textContent = data.name;
+
+          let fahrenheit = temp * (9 / 5) + 32;
+
           locationIcon.innerHTML = `<img src="icons/${icon}.png">`;
 
           temperatureSection.addEventListener("click", () => {
             if (temperatureSpan.textContent === "°C") {
               temperatureSpan.textContent = "°F";
+              temperatureDegree.textContent = fahrenheit;
             } else {
               temperatureSpan.textContent = "°C";
             }
