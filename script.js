@@ -20,16 +20,14 @@ window.addEventListener("load", () => {
           return response.json();
         })
         .then((data) => {
-          console.log(data);
           const { temp } = data.main;
           const { description } = data.weather[0];
           const { icon } = data.weather[0];
           temperatureDegree.textContent = temp;
           temperatureDescription.textContent = description;
           locationTimezone.textContent = data.name;
+          locationIcon.innerHTML = `<img src="icons/${icon}.png">`;
         });
     });
-  } else {
-    h1.textContent = "Please enable location";
   }
 });
