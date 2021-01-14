@@ -1,6 +1,6 @@
 # LocalWeather
 
-LocalWeather is a web application that displays your current location, temperature, and weather condition. Once given permission to access the user's location, LocalWeather pulls weather information relative to the user’s latitude and longitude coordinates.
+LocalWeather is a web application that displays your current location, temperature, and weather condition. The application pulls weather information relative to the user’s latitude and longitude coordinates.
 
 Visit the deployed site here: https://localweather.vercel.app/
 
