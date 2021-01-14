@@ -8,7 +8,7 @@ Visit the deployed site here: https://localweather.vercel.app/
 
 ## Getting Started
 
-Once the site loads, a popup should appear asking for your location;
+Once the site loads, a popup should appear asking for access to your location;
 
 <p align="center"><img src="https://i.imgur.com/I6tvJf8.png" alt="location_ask"></p>
 
