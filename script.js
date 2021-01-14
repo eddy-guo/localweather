@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
       lat = position.coords.latitude;
 
       const proxy = "https://cors-anywhere.herokuapp.com/";
-      const api = `${proxy}https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=d3a84abc0e8dc9a56fa9ef88b72a53a2`;
+      const api = `${proxy}https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=5f09d78119aa2110eab0656a869e1ca5`;
       fetch(api)
         .then((response) => {
           return response.json();
