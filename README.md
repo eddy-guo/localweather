@@ -4,7 +4,7 @@ LocalWeather is a web application that displays your current location, temperatu
 
 Visit the deployed site here: https://localweather.vercel.app/
 
-<p align="center"><img src="https://i.imgur.com/VywMXTB.png" alt="weve showcase"></p>
+<p align="center"><img src="https://i.imgur.com/pTD6117.png" alt="localweather"></p>
 
 ## Getting Started
 
@@ -14,6 +14,8 @@ Once the site loads, a popup should appear asking for your location;
 
 After hitting "Allow", you're all set! Never forget your umbrella ever again 😎
 
+## Acknowledgements
+
 OpenWeatherMap API ( https://openweathermap.org/current ) for Temperature and Weather Condition data.
 
-Implemented Heroku's API (https://cors-anywhere.herokuapp.com/) to run the application on a local server.
+Implemented Heroku's API ( https://cors-anywhere.herokuapp.com ) as a proxy to make requests as a local host.
