@@ -10,7 +10,7 @@ Visit the deployed site here: https://localweather.vercel.app/
 
 Once the site loads, a popup should appear asking for access to your location;
 
-<p align="center"><img src="https://i.imgur.com/I6tvJf8.png" alt="location_ask"></p>
+<p align="center"><img src="https://i.imgur.com/NZ7h14C.png" alt="location_ask"></p>
 
 After hitting "Allow", you're all set! Never forget your umbrella ever again 😎
 
