@@ -14,6 +14,8 @@ Once the site loads, a popup should appear asking for access to your location;
 
 After hitting "Allow", you're all set! Never forget your umbrella ever again 😎
 
+## Built With
+
 ## Acknowledgements
 
 - OpenWeatherMap API ( https://openweathermap.org/current ) for Temperature and Weather Condition data.
