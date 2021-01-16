@@ -19,4 +19,5 @@ After hitting "Allow", you're all set! Never forget your umbrella ever again ðŸ˜
 ## Acknowledgements
 
 - OpenWeatherMap API ( https://openweathermap.org/current ) for Temperature and Weather Condition data.
-- Implemented Heroku's API ( https://cors-anywhere.herokuapp.com ) as a proxy to make requests as a local host.
+- Implemented CORS Anywhere NodeJS proxy ( https://github.com/Rob--W/cors-anywhere ) to add CORS headers to the proxied request.
+
